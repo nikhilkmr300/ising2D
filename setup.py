@@ -20,6 +20,6 @@ setuptools.setup(
       'numpy>=1.18',
       'matplotlib>=3.2',
       'tqdm>=4.46'
-    ]
+    ],
     python_requires='>=3.6',
 )
