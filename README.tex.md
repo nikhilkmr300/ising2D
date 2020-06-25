@@ -4,7 +4,7 @@ The Ising model is a model in statistical mechanics used to describe the behavio
 The system is modelled as a matrix/lattice of +1 and -1 spins.
 
 The energy of the system is given by 
-$H = - J \sum{<i, j>}^{} J_{ij} \sigma_{{i} \sigma_{j}
+$H = - J \sum{<i, j>}^{} J_{ij} \sigma_{{i} \sigma_{j}$
 On each iteration, a lattice site is randomly chosen.
 The spin of this lattice site is then changed with a probability of $\exp(\frac{-\Delta E}{kT})$, 
 where $\Delta E$ is the change in energy of the system on flipping the spin.
