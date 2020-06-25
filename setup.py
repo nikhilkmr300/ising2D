@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="ising2D",
-    version="0.0.5",
+    version="0.0.6",
     author="Nikhil Kumar",
     author_email="nikhilkmr300@gmail.com",
     description="A package to simulate the behaviour of an Ising model system.",
