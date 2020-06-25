@@ -1,15 +1,12 @@
 import setuptools
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
 setuptools.setup(
     name="ising2D",
     version="0.0.5",
     author="Nikhil Kumar",
     author_email="nikhilkmr300@gmail.com",
     description="A package to simulate the behaviour of an Ising model system.",
-    long_description=long_description,
+    long_description="Refer https://github.com/nikhilkmr300/ising2D/blob/master/README.md for description.",
     url="https://github.com/nikhilkmr300/ising2D",
     packages=setuptools.find_packages(),
     classifiers=[
