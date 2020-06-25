@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ising2D",
-    version="0.0.3",
+    version="0.0.4",
     author="Nikhil Kumar",
     author_email="nikhilkmr300@gmail.com",
     description="A package to simulate the behaviour of an Ising model system",
