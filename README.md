@@ -4,7 +4,11 @@ The Ising model is a model in statistical mechanics used to describe the behavio
 The system is modelled as a matrix/lattice of +1 and -1 spins.
 
 The energy of the system is given by 
-<img src="/tex/9e46b9fae7622a77b0e8a0c6c7957d5b.svg?invert_in_darkmode&sanitize=true" align=middle width=187.10811734999996pt height=24.657735299999988pt/>
+<p align="center"><img src="/tex/292426c095d91dcf59693e21d3e606b1.svg?invert_in_darkmode&sanitize=true" align=middle width=141.44592pt height=38.89287435pt/></p>
+where J represents the interaction strength between spins,
+<img src="/tex/580e18465f3e53c541ce7d46f72ae5c1.svg?invert_in_darkmode&sanitize=true" align=middle width=84.27221054999998pt height=21.18721440000001pt/> is the spin of the <img src="/tex/3def24cf259215eefdd43e76525fb473.svg?invert_in_darkmode&sanitize=true" align=middle width=18.32504519999999pt height=27.91243950000002pt/> lattice point.
+<img src="/tex/7409d8ab6a0b37fe9d5c8ce22df9aba8.svg?invert_in_darkmode&sanitize=true" align=middle width=55.38259154999999pt height=21.68300969999999pt/> indicates that the summation is performed over the 4 nearest neighbours (i.e., the von Neumann neighbourhood).
+
 On each iteration, a lattice site is randomly chosen.
 The spin of this lattice site is then changed with a probability of <img src="/tex/2756e01d0c990457ca6dacc33d8ce90b.svg?invert_in_darkmode&sanitize=true" align=middle width=73.2011082pt height=28.670654099999997pt/>, 
 where <img src="/tex/8b315c12c08fd5b9b3d2a80e5db71bb5.svg?invert_in_darkmode&sanitize=true" align=middle width=26.780867849999986pt height=22.465723500000017pt/> is the change in energy of the system on flipping the spin.
@@ -15,3 +19,16 @@ the system exhibits:
 * Ferromagnetic: For J > 0 and temperature below critical temperature
 * Antiferromagnetic: For J < 0 and temperature below critical temperature
 * Paramagnetic: For temperature above critical temperature
+
+# Installation
+Install `code`pip`code` if you do not have it already. Refer https://pip.pypa.io/en/stable/installing/.
+Use the command `code`pip install ising2D`code` to install the package.
+
+# Description of functions
+Here is a description of the functions that you might want to use in your code:
+* plot_magnetization_vs_T: Generates a plot of final magnetization vs temperature for a lattice initalized as initial_lattice. Final magnetization is the magnetization of the lattice after num_steps steps of the MCM algorithm.
+* run_metropolis: Runs num_steps number of steps of the Monte Carlo Metropolis (MCM) algorithm.
+* generate_lattice_evolution: Takes num_steps number of steps of the Monte-Carlo metropolis (MCM) algorithm.
+* plot_lattice_evolution: Generates an animation of the evolution of the lattice through the MCM algorithm.
+
+The tests directory in this repository contains some code you might find useful in understanding how to use this package.
