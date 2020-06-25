@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="ising2D", # Replace with your own username
+    name="ising2D",
     version="0.0.3",
     author="Nikhil Kumar",
     author_email="nikhilkmr300@gmail.com",
