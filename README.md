@@ -1,6 +1,6 @@
 # ising2D
 A package to simulate the behaviour of an Ising model system. 
-The Ising model is a model in statistical mechanics used to describe the behaviour of a magnetic system.
+The Ising model is a model in statistical mechanics used to describe the behaviour of a magnetic system proposed by Ernst Ising in 1925.
 The system is modelled as a matrix/lattice of +1 and -1 spins.
 
 The energy of the system is given by 
@@ -33,5 +33,7 @@ Here is a description of the functions that you might want to use in your code:
 * run_metropolis: Runs num_steps number of steps of the Monte Carlo Metropolis (MCM) algorithm.
 * generate_lattice_evolution: Takes num_steps number of steps of the Monte-Carlo metropolis (MCM) algorithm.
 * plot_lattice_evolution: Generates an animation of the evolution of the lattice through the MCM algorithm.
+
+Documentation is part of the source code file as PEP8 comments.
 
 The tests directory in this repository contains some code you might find useful in understanding how to use this package.
