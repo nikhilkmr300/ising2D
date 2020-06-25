@@ -20,6 +20,9 @@ the system exhibits:
 * Antiferromagnetic: For J < 0 and temperature below critical temperature
 * Paramagnetic: For temperature above critical temperature
 
+Reference: 
+Ising, E. (1925). Beitrag zur theorie des ferromagnetismus. Zeitschrift für Physik, 31(1), 253-258.
+
 # Installation
 Install `pip` if you do not have it already. Refer https://pip.pypa.io/en/stable/installing/.
 Use the command `pip install ising2D` to install the package.
