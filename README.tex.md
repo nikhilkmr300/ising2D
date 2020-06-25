@@ -21,8 +21,8 @@ the system exhibits:
 * Paramagnetic: For temperature above critical temperature
 
 # Installation
-Install `code`pip`code` if you do not have it already. Refer https://pip.pypa.io/en/stable/installing/.
-Use the command `code`pip install ising2D`code` to install the package.
+Install `pip` if you do not have it already. Refer https://pip.pypa.io/en/stable/installing/.
+Use the command `pip install ising2D` to install the package.
 
 # Description of functions
 Here is a description of the functions that you might want to use in your code:
