@@ -4,9 +4,9 @@ The Ising model is a model in statistical mechanics used to describe the behavio
 The system is modelled as a matrix/lattice of +1 and -1 spins.
 
 The energy of the system is given by 
-<p align="center"><img src="/tex/292426c095d91dcf59693e21d3e606b1.svg?invert_in_darkmode&sanitize=true" align=middle width=141.44592pt height=38.89287435pt/></p>
+<img src="/tex/2952095dffb5082a65347403fb15d457.svg?invert_in_darkmode&sanitize=true" align=middle width=159.61948859999998pt height=24.657735299999988pt/>
 where J represents the interaction strength between spins,
-<img src="/tex/580e18465f3e53c541ce7d46f72ae5c1.svg?invert_in_darkmode&sanitize=true" align=middle width=84.27221054999998pt height=21.18721440000001pt/> is the spin of the <img src="/tex/3def24cf259215eefdd43e76525fb473.svg?invert_in_darkmode&sanitize=true" align=middle width=18.32504519999999pt height=27.91243950000002pt/> lattice point.
+<img src="/tex/f29c574505eea1cddce4335737b3cad0.svg?invert_in_darkmode&sanitize=true" align=middle width=100.71062924999998pt height=24.65753399999998pt/> is the spin of the <img src="/tex/3def24cf259215eefdd43e76525fb473.svg?invert_in_darkmode&sanitize=true" align=middle width=18.32504519999999pt height=27.91243950000002pt/> lattice point.
 <img src="/tex/7409d8ab6a0b37fe9d5c8ce22df9aba8.svg?invert_in_darkmode&sanitize=true" align=middle width=55.38259154999999pt height=21.68300969999999pt/> indicates that the summation is performed over the 4 nearest neighbours (i.e., the von Neumann neighbourhood).
 
 On each iteration, a lattice site is randomly chosen.
