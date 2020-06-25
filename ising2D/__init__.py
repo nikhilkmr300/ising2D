@@ -1,1 +1,2 @@
-from ising2D import *
+from .ising2D import *
+__all__ = ['ising2D']
