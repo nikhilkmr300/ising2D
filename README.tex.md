@@ -4,9 +4,9 @@ The Ising model is a model in statistical mechanics used to describe the behavio
 The system is modelled as a matrix/lattice of +1 and -1 spins.
 
 The energy of the system is given by 
-$$H = - \sum_{<i, j>}^{} J_{ij} \sigma_{i} \sigma_{j}$$
+$H = - \sum_{<i, j>}^{} J_{ij} \sigma_{i} \sigma_{j}$
 where J represents the interaction strength between spins,
-$\sigma_{i} \in {-1, +1}$ is the spin of the $i^{th}$ lattice point.
+$\sigma_{i} \in \{-1, +1\}$ is the spin of the $i^{th}$ lattice point.
 $<i, j>$ indicates that the summation is performed over the 4 nearest neighbours (i.e., the von Neumann neighbourhood).
 
 On each iteration, a lattice site is randomly chosen.
