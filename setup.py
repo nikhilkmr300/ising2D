@@ -5,10 +5,11 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ising2D",
-    version="0.0.4",
+    version="0.0.5",
     author="Nikhil Kumar",
     author_email="nikhilkmr300@gmail.com",
-    description="A package to simulate the behaviour of an Ising model system",
+    description="A package to simulate the behaviour of an Ising model system.",
+    long_description=long_description,
     url="https://github.com/nikhilkmr300/ising2D",
     packages=setuptools.find_packages(),
     classifiers=[
