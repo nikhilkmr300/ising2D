@@ -20,7 +20,7 @@ the system exhibits:
 * Antiferromagnetic: For J < 0 and temperature below critical temperature
 * Paramagnetic: For temperature above critical temperature
 
-Reference: 
+Reference:
 Ising, E. (1925). Beitrag zur theorie des ferromagnetismus. Zeitschrift für Physik, 31(1), 253-258.
 
 # Installation
@@ -33,7 +33,5 @@ Here is a description of the functions that you might want to use in your code:
 * run_metropolis: Runs num_steps number of steps of the Monte Carlo Metropolis (MCM) algorithm.
 * generate_lattice_evolution: Takes num_steps number of steps of the Monte-Carlo metropolis (MCM) algorithm.
 * plot_lattice_evolution: Generates an animation of the evolution of the lattice through the MCM algorithm.
-
-Documentation is part of the source code file as PEP8 comments.
 
 The tests directory in this repository contains some code you might find useful in understanding how to use this package.
