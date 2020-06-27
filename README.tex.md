@@ -1,6 +1,6 @@
 # ising2D
 A package to simulate the behaviour of an Ising model system. 
-The Ising model is a model in statistical mechanics used to describe the behaviour of a magnetic system.
+The Ising model is a model in statistical mechanics used to describe the behaviour of a magnetic system proposed by Ernst Ising in 1925.
 The system is modelled as a matrix/lattice of +1 and -1 spins.
 
 The energy of the system is given by 
@@ -19,6 +19,9 @@ the system exhibits:
 * Ferromagnetic: For J > 0 and temperature below critical temperature
 * Antiferromagnetic: For J < 0 and temperature below critical temperature
 * Paramagnetic: For temperature above critical temperature
+
+Reference:
+Ising, E. (1925). Beitrag zur theorie des ferromagnetismus. Zeitschrift für Physik, 31(1), 253-258.
 
 # Installation
 Install `pip` if you do not have it already. Refer https://pip.pypa.io/en/stable/installing/.
