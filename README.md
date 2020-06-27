@@ -1,5 +1,6 @@
 # ising2D
-A package to simulate the behaviour of an Ising model system. 
+A package to simulate the behaviour of an Ising model system.
+
 The Ising model is a model in statistical mechanics used to describe the behaviour of a magnetic system proposed by Ernst Ising in 1925.
 The system is modelled as a matrix/lattice of +1 and -1 spins.
 
@@ -20,8 +21,39 @@ the system exhibits:
 * Antiferromagnetic: For J < 0 and temperature below critical temperature
 * Paramagnetic: For temperature above critical temperature
 
-Reference:
+# Examples
+Note: For the sake of simplicity, k has been taken to be 1.
+
+## Transition
+Critical temperature is T_c≈2.4, where the transition happens.
+This can be observed in the graph below.
+
+<img src="https://github.com/nikhilkmr300/ising2D/blob/master/images/magnetization_vs_temperature.png" align=middle/ height=320>
+
+## Ferromagnetic
+Below critical temperature (T_c≈2.4), J=1, T=1, 16x16 lattice:
+
+<img src="https://github.com/nikhilkmr300/ising2D/blob/master/images/ferro.png" align=middle/ width=320 height=320>
+
+Regions of aligned spins form.
+
+## Antiferromagnetic
+Below critical temperature (T_c≈2.4), J=-1, T=1, 16x16 lattice:
+
+<img src="https://github.com/nikhilkmr300/ising2D/blob/master/images/antiferro.png" align=middle/ width=320 height=320>
+
+Spins tend to align oppositely, in a checkerboard pattern.
+
+## Paramagnetic
+Above critical temperature (T_c≈2.4), J=1, T=10, 16x16 lattice
+
+<img src="https://github.com/nikhilkmr300/ising2D/blob/master/images/para.png" align=middle/ width=320 height=320>
+
+Spins do not form a specific pattern, remaining random.
+
+References:
 Ising, E. (1925). Beitrag zur theorie des ferromagnetismus. Zeitschrift für Physik, 31(1), 253-258.
+https://en.wikipedia.org/wiki/Ising_model
 
 # Installation
 Install `pip` if you do not have it already. Refer https://pip.pypa.io/en/stable/installing/.
