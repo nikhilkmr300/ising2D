@@ -21,30 +21,30 @@ the system exhibits:
 * Antiferromagnetic: For J < 0 and temperature below critical temperature
 * Paramagnetic: For temperature above critical temperature
 
-# Examples
+## Examples
 Note: For the sake of simplicity, k has been taken to be 1.
 
-## Transition
+### Transition
 Critical temperature is T_c≈2.4, where the transition happens.
 This can be observed in the graph below.
 
 <img src="https://github.com/nikhilkmr300/ising2D/blob/master/images/magnetization_vs_temperature.png" align=middle/ height=320>
 
-## Ferromagnetic
+### Ferromagnetic
 Below critical temperature (T_c≈2.4), J=1, T=1, 16x16 lattice:
 
 <img src="https://github.com/nikhilkmr300/ising2D/blob/master/images/ferro.png" align=middle/ width=320 height=320>
 
 Regions of aligned spins form.
 
-## Antiferromagnetic
+### Antiferromagnetic
 Below critical temperature (T_c≈2.4), J=-1, T=1, 16x16 lattice:
 
 <img src="https://github.com/nikhilkmr300/ising2D/blob/master/images/antiferro.png" align=middle/ width=320 height=320>
 
 Spins tend to align oppositely, in a checkerboard pattern.
 
-## Paramagnetic
+### Paramagnetic
 Above critical temperature (T_c≈2.4), J=1, T=10, 16x16 lattice
 
 <img src="https://github.com/nikhilkmr300/ising2D/blob/master/images/para.png" align=middle/ width=320 height=320>
@@ -55,11 +55,11 @@ References:
 Ising, E. (1925). Beitrag zur theorie des ferromagnetismus. Zeitschrift für Physik, 31(1), 253-258.
 https://en.wikipedia.org/wiki/Ising_model
 
-# Installation
+## Installation
 Install `pip` if you do not have it already. Refer https://pip.pypa.io/en/stable/installing/.
 Use the command `pip install ising2D` to install the package.
 
-# Description of functions
+## Description of functions
 Here is a description of the functions that you might want to use in your code:
 * plot_magnetization_vs_T: Generates a plot of final magnetization vs temperature for a lattice initalized as initial_lattice. Final magnetization is the magnetization of the lattice after num_steps steps of the MCM algorithm.
 * run_metropolis: Runs num_steps number of steps of the Monte Carlo Metropolis (MCM) algorithm.
